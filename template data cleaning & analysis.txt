@@ -1,3 +1,31 @@
+# install dataprep
+
+!pip install -U git+https://github.com/sfu-db/dataprep.git@develop --quiet
+
+
+
+# import libraries
+
+from dataprep.eda import *
+from dataprep.datasets import load_dataset
+from dataprep.eda import plot, plot_correlation, plot_missing, plot_diff, create_report
+from dataprep.clean import clean_headers
+from dataprep.clean import clean_duplication
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
+# read file
+
+excel - data = pd.read_excel('')
+
+csv - data = pd.read_csv('')
+
+parquet - data = pd.read_parquet('')
+
+
 # rename columns
 
 
