@@ -90,8 +90,13 @@ new_data = data.dropna()
 
 
 
-# delete duplicates values
 
+
+# Drop duplicate rows based on all columns
+combined = combined.drop_duplicates()
+
+
+# check duplicated
 
 new_data = data[data.duplicated()]
 
