@@ -118,4 +118,39 @@ plot(data)
 
 
 
+# read more files
+
+import os
+
+directory = '/kaggle/input/home-credit-credit-risk-model-stability/csv_files/test'  # Specify the directory path here
+
+# Iterate over all files in the directory
+for filename in os.listdir(directory):
+    if filename.endswith('.csv'):  # Check if the file is a CSV file
+        file_path = os.path.join(directory, filename)  # Get the full path of the file
+        # Read the file
+        with open(file_path, 'r') as file:
+            # Process the file (e.g., read its contents, perform operations)
+            # Example:
+            content = file.read()
+            print(f"Contents of {filename}:")
+            print(content)
+
+
+
+# Iterate over all files in the directory
+for filename in os.listdir(directory):
+    if filename.endswith('.csv'):  # Check if the file is a CSV file
+        file_path = os.path.join(directory, filename)  # Get the full path of the file
+        # Read the file
+        df = pd.read_csv(file_path)
+        # Process the DataFrame (e.g., perform data analysis, feature engineering, etc.)
+
+
+
+
+
+
+
+
 create_report(data)
