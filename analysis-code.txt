@@ -1,0 +1,14 @@
+1) bar graph 
+
+kein['sale_price/amount'].head(10).value_counts().plot(kind='bar')
+plt.show()
+
+
+2) histogram
+
+# histograms
+kein.hist()
+plt.show()
+
+
+3) 
