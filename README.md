@@ -9,6 +9,9 @@ For beginner who want to used my template code, you can use for free ! Just pray
 https://github.com/shasha0982/template/blob/main/template%20data%20cleaning%20%26%20analysis.txt
 
 
+https://github.com/barirahzainalabidin/template/blob/main/analysis-code.txt
+
+
 
 # 2. Code pyCaret Machine Learning
 
